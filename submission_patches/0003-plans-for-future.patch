@@ -1,0 +1,28 @@
+From 4e3f7a3e35c789623e7ee118aebb0f5467037560 Mon Sep 17 00:00:00 2001
+From: Jon Ringvald <jvald8@gmail.com>
+Date: Wed, 5 Aug 2015 21:28:08 -0700
+Subject: [PATCH 3/4] plans for future
+
+---
+ todo.md | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+diff --git a/todo.md b/todo.md
+index 139597f..880bf80 100644
+--- a/todo.md
++++ b/todo.md
+@@ -1,2 +1,11 @@
++Tests to add:
++1. fetchinfo with fake address
++2. use httpbackend to test getday function
++3. test toggle days
++4. test currentday function
++5. test gotoday function
+ 
++Bonus features:
++- enabling a user to save settings for the table view (e.g. a specific seven day period sorted by day length, descending) with a url that can be linked to and display these settings.
++- enabling a user to set the time zone in which all times are displayed.
+ 
+-- 
+2.3.6
+

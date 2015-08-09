@@ -41,8 +41,8 @@ angular.module('weather', ['ui.bootstrap'])
   // getting and setting the longitudes and latitudes.
   $scope.fetchInfo = function(address, firstDate, secondDate) {
     $scope.geocoder.geocode({'address':$scope.address}, function(results, status) {
-      $scope.latAndLong.longitude = results[0].geometry.location.K;
-      $scope.latAndLong.latitude = results[0].geometry.location.G;
+      $scope.latAndLong.longitude = results[0].geometry.location.G;
+      $scope.latAndLong.latitude = results[0].geometry.location.K;
 
       $scope.getDateRange(firstDate, secondDate);
 
